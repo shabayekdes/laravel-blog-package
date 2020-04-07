@@ -1,0 +1,25 @@
+{
+    "name": "shabayekdes/laravel-blog-package",
+    "description": "Laravel package to parse blog markdown",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Esmail Shabayek",
+            "email": "esmail.shabayek@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^5.1"
+    },    
+    "autoload": {
+        "psr-4": {
+            "Blog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blog\\Tests\\": "tests/"
+        }
+    },
+}
